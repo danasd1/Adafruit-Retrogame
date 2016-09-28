@@ -96,13 +96,13 @@ struct {
 	{  18,     KEY_DOWN     },
 	{  17,     KEY_UP       },
 	{  21,     KEY_LEFTCTRL },   // A/Fire/jump/primary
-	{  26,     KEY_1        },   // B/Bomb/secondary
-	{   5,     KEY_A        },   // X
-	{   6,     KEY_S        },   // Y
+	{   5,     KEY_1        },   // B/Bomb/secondary
+	{  26,     KEY_A        },   // X
+	{  16,     KEY_S        },   // Y
 	{  13,     KEY_Q        },   // L Shoulder
 	{   3,     KEY_W        },   // R Shoulder
 	{  20 ,    KEY_LEFTALT  },   // Credit
-	{  16,     KEY_5        },   // Start 1P
+	{   6,     KEY_5        },   // Start 1P
 	{  -1,     -1           } }, // END OF LIST, DO NOT CHANGE
 	// MAME must be configured with 'z' & 'x' as buttons 1 & 2 -
 	// this was required for the accompanying 'menu' utility to
