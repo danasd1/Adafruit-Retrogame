@@ -93,16 +93,16 @@ struct {
 	// Input   Output (from /usr/include/linux/input.h)
 	{  27,     KEY_LEFT     },   // Joystick (4 pins)
 	{   4,     KEY_RIGHT    },
-	{  18,     KEY_DOWN     },
+	{  24,     KEY_DOWN     },
 	{  17,     KEY_UP       },
 	{  21,     KEY_LEFTCTRL },   // A/Fire/jump/primary
-	{   5,     KEY_1        },   // B/Bomb/secondary
-	{  26,     KEY_A        },   // X
-	{  16,     KEY_S        },   // Y
-	{  13,     KEY_Q        },   // L Shoulder
-	{   3,     KEY_W        },   // R Shoulder
-	{  20 ,    KEY_LEFTALT  },   // Credit
-	{   6,     KEY_5        },   // Start 1P
+	{   5,     KEY_1        },   // Start
+	{  26,     KEY_Z        },   // X
+	{  16,     KEY_X        },   // Y
+	{   3,     KEY_A        },   // L Shoulder
+	{  19,     KEY_S        },   // R Shoulder
+	{  20 ,    KEY_LEFTALT  },   // B
+	{   6,     KEY_5        },   // Select
 	{  -1,     -1           } }, // END OF LIST, DO NOT CHANGE
 	// MAME must be configured with 'z' & 'x' as buttons 1 & 2 -
 	// this was required for the accompanying 'menu' utility to
