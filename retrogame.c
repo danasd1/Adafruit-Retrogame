@@ -91,18 +91,18 @@ struct {
 	// This pin/key table is used if an Adafruit PiTFT display
 	// is detected (e.g. Cupcade or PiGRRL).
 	// Input   Output (from /usr/include/linux/input.h)
-	{  27,     KEY_LEFT     },   // Joystick (4 pins)
-	{   4,     KEY_RIGHT    },
-	{  24,     KEY_DOWN     },
-	{  17,     KEY_UP       },
-	{  21,     KEY_LEFTCTRL },   // A/Fire/jump/primary
-	{   5,     KEY_1        },   // Start
-	{  26,     KEY_Z        },   // X
-	{  16,     KEY_X        },   // Y
-	{   3,     KEY_A        },   // L Shoulder
-	{  19,     KEY_S        },   // R Shoulder
-	{  20 ,    KEY_LEFTALT  },   // B
-	{   6,     KEY_5        },   // Select
+	{  26,     KEY_LEFT     },   // Joystick (4 pins)
+	{  16,     KEY_RIGHT    },
+	{  20,     KEY_DOWN     },
+	{  21,     KEY_UP       },
+	{   4,     KEY_LEFTCTRL },   // A/Fire/jump/primary
+	{   6,     KEY_1        },   // Start
+	{  27,     KEY_Z        },   // X
+	{  17,     KEY_X        },   // Y
+	{  19,     KEY_A        },   // L Shoulder
+	{   5,     KEY_S        },   // R Shoulder
+	{   3,     KEY_LEFTALT  },   // B
+	{  13,     KEY_5        },   // Select
 	{  -1,     -1           } }, // END OF LIST, DO NOT CHANGE
 	// MAME must be configured with 'z' & 'x' as buttons 1 & 2 -
 	// this was required for the accompanying 'menu' utility to
